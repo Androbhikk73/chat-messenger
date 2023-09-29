@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "es2016",
+		"moduleDetection": "auto",
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"rootDir": "./src",
+		"baseUrl": "./src",
+		"outDir": "dist",
+		"sourceMap": true
+	},
+	"include": ["./src/**/*.ts"]
+}
